@@ -253,7 +253,7 @@ if chat_type == "Chat with URL (Rag)":
                 retrieval = vector_store.as_retriever()
                 context = retrieval.invoke(query) 
                 return '\n\n'.join([i.page_content for i in context])
-            prompting = """You are a helpful AI assistant. Your purpose is to answer question based on the given context: {context} correctly.Not relevent questions please ask user to provide next next question politly """ + system_prompt
+            prompting = """You are a helpful AI assistant. Your purpose is to answer question based on the given context: {context} correctly.incase questions are not relevent to context, then please ask user to provide next next question politly """ + system_prompt
             prompt_template = ChatPromptTemplate.from_template(prompting)
             custom_chain = {"context" : retriever, "question": RunnablePassthrough()} | prompt_template | model | StrOutputParser()
 

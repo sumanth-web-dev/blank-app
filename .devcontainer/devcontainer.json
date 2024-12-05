@@ -24,12 +24,12 @@
     "server": "streamlit run streamlit_app.py --server.port 8502 --server.enableCORS false --server.enableXsrfProtection false"
   },
   "portsAttributes": {
-    "8502": {
+    "8501": {
       "label": "Application",
       "onAutoForward": "openPreview"
     }
   },
   "forwardPorts": [
-    8502
+    8501
   ]
 }

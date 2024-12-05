@@ -1,1 +1,9 @@
 streamlit
+langchain
+langchain_emperimental
+tempfile
+langchain-together
+requests
+BeautifulSoup
+langchain-google-genai
+beautifulsoup4

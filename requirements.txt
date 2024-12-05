@@ -1,6 +1,6 @@
 streamlit
 langchain
-langchain_emperimental
+langchain-emperimental
 tempfile
 langchain-together
 requests

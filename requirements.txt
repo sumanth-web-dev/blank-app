@@ -7,3 +7,4 @@ requests
 langchain-google-genai
 beautifulsoup4
 langchain-community
+PyMuPDF

@@ -4,7 +4,6 @@ langchain-experimental==0.3.3
 tempfile
 langchain-together
 requests
-BeautifulSoup
 langchain-google-genai
 beautifulsoup4
 
